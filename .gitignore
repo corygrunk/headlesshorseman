@@ -1,0 +1,12 @@
+.jshintrc
+ngrok
+js/libs/*
+node_modules
+lost+found
+Thumbs.db
+.DS_Store
+._.DS_Store
+.SyncID
+.SyncIgnore
+.SyncArchive
+.env
