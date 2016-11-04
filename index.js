@@ -37,8 +37,9 @@ var captureComplete = function () {
 
 var exec = require('child_process').exec
 var cmd = './js/libs/phantomjs-2.1.1-macosx/bin/phantomjs js/phantom-capture.js'
+var cmdStats = './js/libs/phantomjs-2.1.1-macosx/bin/phantomjs js/w3cbrowserstats.js'
 
-exec(cmd, function(error, stdout, stderr, callback) {
+exec(cmdStats, function(error, stdout, stderr, callback) {
   // function to run once capture is complete
   captureComplete();
 })
