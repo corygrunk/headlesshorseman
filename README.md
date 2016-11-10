@@ -1,5 +1,5 @@
 # headlesshorseman
-Headless Image Creater
+Headless screenshotter
 
 Mac OSX
 Install phantomjs here: /js/libs/
